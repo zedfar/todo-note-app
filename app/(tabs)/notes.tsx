@@ -22,6 +22,7 @@ import { NoteItem } from '@/components/notes/NoteItem';
 import { NoteForm } from '@/components/notes/NoteForm';
 import { NoteDetail } from '@/components/notes/NoteDetail';
 import type { Note, CreateNoteDto, UpdateNoteDto } from '@/types/note.types';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 export default function NotesScreen() {
   const colorScheme = useThemeStore((state) => state.colorScheme);
@@ -157,7 +158,7 @@ export default function NotesScreen() {
   }
 
   return (
-    <View
+    <SafeAreaView
       className="flex-1"
       style={{ backgroundColor: isDark ? '#000' : '#F9FAFB' }}
     >
@@ -268,6 +269,6 @@ export default function NotesScreen() {
         note={selectedNote}
         onClose={handleCloseDetail}
       />
-    </View>
+    </SafeAreaView>
   );
 }

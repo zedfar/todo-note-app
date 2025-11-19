@@ -21,6 +21,7 @@ import { todoService } from '@/services/todoService';
 import { TodoItem } from '@/components/todos/TodoItem';
 import { TodoForm } from '@/components/todos/TodoForm';
 import type { Todo, TodoFilter, CreateTodoDto, UpdateTodoDto } from '@/types/todo.types';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 export default function TodoScreen() {
   const colorScheme = useThemeStore((state) => state.colorScheme);
@@ -155,7 +156,7 @@ export default function TodoScreen() {
   }
 
   return (
-    <View
+    <SafeAreaView
       className="flex-1"
       style={{ backgroundColor: isDark ? '#000' : '#F9FAFB' }}
     >
@@ -291,6 +292,6 @@ export default function TodoScreen() {
           }
         }}
       />
-    </View>
+    </SafeAreaView>
   );
 }
