@@ -17,14 +17,14 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.todo-note-app.app"
+      "bundleIdentifier": "com.todonoteapp.app"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./src/assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.todo-note-app.app",
+      "package": "com.todonoteapp.app",
       "versionCode": 1
     },
     "web": {
