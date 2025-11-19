@@ -70,7 +70,7 @@ expo-env.d.ts
 # Other
 structure.txt
 .claude
-example
+examples
 ai.context.json
 AI_GUIDE.md
 CONVENTIONS.md
