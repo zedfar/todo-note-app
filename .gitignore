@@ -71,7 +71,7 @@ expo-env.d.ts
 structure.txt
 .claude
 examples
-ai.context.json
+ai-context.json
 AI_GUIDE.md
 CONVENTIONS.md
 GENERATE_RULES.md
