@@ -1,0 +1,21 @@
+{
+  "screensPath": "app",
+  "componentsPath": "src/components",
+  "hooksPath": "src/hooks",
+  "servicesPath": "src/services",
+  "mockApiPath": "src/services/mockApi",
+  "storePath": "src/store",
+  "typesPath": "src/types",
+  "utilsPath": "src/utils",
+  "themePath": "src/theme",
+  "mockDataPath": "server/db.json",
+  "examples": "examples",
+  "examplesScreens": "examples/screens",
+  "examplesServices": "examples/services",
+  "examplesApps": "examples/apps",
+  "aiGuide": "AI_GUIDE.md",
+  "serverGuide": "SERVER_GUIDE.md",
+  "templateVariants": "TEMPLATE_VARIANTS.md",
+  "rules": "GENERATE_RULES.md",
+  "conventions": "CONVENTIONS.md"
+}
